@@ -87,7 +87,8 @@ def alterar():
 
     
     # Substituir o registo
-    Selos[pos] = Selos[pos]._replace(nome=novo_nome, serie=novo_serie, ano=novo_ano)
+    Selos[pos] = Selos[pos]._replace(nome=novo_nome, serie=novo_serie, 
+    	ano=novo_ano)
 
     
     
