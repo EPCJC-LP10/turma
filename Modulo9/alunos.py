@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import pickle
 from collections import namedtuple
 
 import menu
 
 
 alunoReg = namedtuple("alunoReg", "id, nome")
+listaAlunos = []
+
 
 
 def encontrar_posicao(codigo):
@@ -110,7 +111,7 @@ def gerir():
 
 if __name__ == "__main__":
     print "Este programa não deve ser executado diretamente"
-    exit()
+
 
 
 

@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from collections import namedtuple 
-
 import menu
 import alunos
 import util
@@ -32,7 +30,7 @@ while not terminar:
     if op == '1':
         alunos.gerir()
     elif op == '2':
-        horarios.gerir()
+        pass    #por fazer
     elif op == '0':
         terminar = True
 
